@@ -1,0 +1,63 @@
+@import url("../../theme/variables.css");
+
+
+.image{
+    height: 40%;
+    width:100%;
+    background-color: var(--ion-background-color);
+    background-position: 75% 75%;
+    background-size: cover;
+    position: fixed;
+
+    z-index: -5;
+}
+
+.hide{
+    display: none;
+}
+
+.style_title{
+    position: fixed;
+    top: 40%;
+    height:60%;
+    width: 100%;
+}
+
+.style_title_text{
+    font-size: 3rem;
+    margin-top: 45%;
+    text-align: center;
+}
+
+.content_card{
+    margin-top: 35%;
+    
+    height: max-content;
+    /*background-color: rgba(var(--ion-background-color-rgb), 1);*/
+    background-color: var(--ion-background-color);
+    border-radius: 2rem 2rem 0px 0px;
+    
+    padding: 1rem;
+    padding-top: 0.25rem;
+
+    z-index: 5;
+
+    box-shadow: 0.31rem -0.5rem 1.69rem -0.5rem rgba(0,0,0,0.33);
+
+    min-height: 30rem;
+}
+
+.dark .content_card{
+    background-color: rgba(var(--ion-background-color-rgb), 0.8);
+}
+
+@media (orientation: landscape){
+    .content_card{
+        margin-top: 10%;
+    }
+}
+
+.title{
+    font-size: 2rem;
+    padding-left: 1rem;
+}

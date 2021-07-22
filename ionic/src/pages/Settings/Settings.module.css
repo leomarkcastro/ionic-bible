@@ -1,0 +1,16 @@
+@import url("../../theme/variables.css");
+
+.note_size{
+    padding: 1rem;
+    font-size: calc(1rem * var(--ion-note-size)/100)!important;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.verse_size{
+    padding: 1rem;
+    font-size: calc(1rem * var(--ion-verse-size)/100)!important;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,35 @@
+@import url("../../theme/variables.css");
+
+.text_area{
+    --padding-start: 0;
+    font-size: calc(1rem * var(--ion-note-size)/100)!important;
+
+    text-rendering: optimizeLegibility;
+}
+
+.text_area_title{
+    --padding-start: 0;
+    font-size: calc(1rem * var(--ion-note-size))!important;
+
+    text-rendering: optimizeLegibility;
+}
+
+.text_area_title2{
+    --padding-start: 0.5rem;
+    --padding-end: 0.5rem;
+    --padding-top: 0;
+    text-align: center;
+}
+
+
+.text_area_title{
+    height: 1.2rem
+}
+
+.note_paper{
+    border-top: 1rem solid var(--ion-color-warning-shade);
+}
+
+.color_select{
+    margin: 5rem;
+}

@@ -1,0 +1,19 @@
+@import url("../../theme/variables.css");
+
+.bookview{
+    text-align: justify;
+}
+
+.nav{
+    margin: 1rem 0;
+}
+
+.banner_img{
+    width: 100%;
+    height: 10rem;
+    background-image: url("https://assets.answersingenesis.org/img/cms/content/contentnode/og_image/does-it-really-matter-if-moses-wrote-genesis-200x628.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

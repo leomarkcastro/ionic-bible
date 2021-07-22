@@ -1,0 +1,5 @@
+@import url("../../theme/variables.css");
+
+.note_base{
+    min-height: 10rem;
+}

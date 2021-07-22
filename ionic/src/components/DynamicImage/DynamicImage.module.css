@@ -1,0 +1,10 @@
+@import url("../../theme/variables.css");
+
+
+.image{
+    background-color: var(--ion-background-color);
+    background-position: 75% 75%;
+    background-size: cover;
+
+    z-index: -5;
+}

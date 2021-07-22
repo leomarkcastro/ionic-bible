@@ -1,0 +1,32 @@
+@import url("../../theme/variables.css");
+
+.quote{
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    text-align: justify;
+}
+
+.quote_book{
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.buttons{
+    text-align: right;
+}
+
+.greeting{
+    text-align: center;
+    padding: 10%;
+    font-size: 0.75rem;
+}
+
+.starred_verse{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.starred_author{
+    padding-bottom: 0.5rem;
+    text-align: right;
+}
