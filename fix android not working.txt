@@ -1,0 +1,13 @@
+It's a bug on the ionic CLI. It's been fixed, but not released yet. https://github.com/ionic-team/capacitor/issues/1453
+
+As workaround you can remove the --capacitor option when creating the project, and then do the integration manually like this:
+
+npm install @capacitor/core @capacitor/cli
+
+npx cap init
+
+And let Ionic know you did the integration by adding this to the ionic.config.json
+
+"integrations": {
+    "capacitor": {}
+},
