@@ -1,0 +1,7 @@
+{
+  "name": "The Good Book",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
